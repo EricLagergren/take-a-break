@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "name": "Take A Break",
+  "description": "Alerts you to take a break every once and a while.",
+  "version": "1.0",
+
+  "permissions": [
+    "alarms"
+  ],
+
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
